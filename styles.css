@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Updated styling for the common content sections */
+.content-section {
+    padding: 20px;
+}
+
+.welcome-section {
+    /* Add specific styling for the welcome section */
+}
+
+.image-slider {
+    /* Add styling for the image slider */
+}
+
+.mission {
+    margin-top: 20px;
+}
+
+.donate-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.news-section,
+.help-section,
+.contact-section {
+    /* Use the common styling for the content sections */
+    /* You may add specific styles for each section if needed */
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
